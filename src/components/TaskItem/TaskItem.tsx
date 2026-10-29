@@ -1,7 +1,11 @@
-export default function TaskItem() {
+import type {TaskItemProps} from '../../types'
+
+export default function TaskItem({task, onStatusChange, onDelete}:TaskItemProps) {
+     
     return(
         <div>
-            <h1>Task Item</h1>
+            <h1>{task.title}</h1>
+            <p>{task.description}</p>
         </div>
     )
 }
