@@ -10,7 +10,7 @@ export default function App () {
         id: '1',
         title: 'Coding Day!',
         description: "Today I'll be creating code",
-        status: 'Pending',
+        status: 'pending',
         priority: 'high',
         dueDate: '2026-12-31',
 
